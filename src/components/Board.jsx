@@ -23,7 +23,6 @@ const Board = ({ nCard, onGameEnd, matched, setMatched, gameStarted,setGameStart
             `https://pokeapi.co/api/v2/pokemon/${randomId}`
           );
 
-          // Asegurarse de que no se repita un Pokémon único en la lista
           if (!pokemonList.some((pokemon) => pokemon.id === response.data.id)) {
             pokemonList.push({
               id: response.data.id,
@@ -34,7 +33,6 @@ const Board = ({ nCard, onGameEnd, matched, setMatched, gameStarted,setGameStart
           }
         }
 
-        // Duplicar cada Pokémon para hacer los pares
         const duplicatedList = [...pokemonList, ...pokemonList].sort(
           () => Math.random() - 0.5
         );
