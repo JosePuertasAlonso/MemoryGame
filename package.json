@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://josepuertasalonso.github.io/Portfolio/",
+  "homepage": "https://josepuertasalonso.github.io/MemoryGame/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
