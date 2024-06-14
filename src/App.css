@@ -1,10 +1,12 @@
+body {
+  background-image: linear-gradient(#f5ffffd8, #f5ffffd8), url('./images/pokeball.webp');
+}
 .main {
   display: flex;
   flex-direction: column;
   width: 1400px;
   height: 800px;
   margin: auto;
-  background-image: linear-gradient(#f5ffffd8, #f5ffffd8), url('./images/pokeball.webp');
 
 }
 
