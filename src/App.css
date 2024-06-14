@@ -4,7 +4,7 @@
   width: 1400px;
   height: 800px;
   margin: auto;
-  background-image: linear-gradient(#f5ffffd8, #f5ffffd8), url('pokeball.webp');
+  background-image: linear-gradient(#f5ffffd8, #f5ffffd8), url('./images/pokeball.webp');
 
 }
 
@@ -48,7 +48,7 @@
 }
 
 .card .card-front {
-  background-image: url('back-card.webp');
+  background-image: url('./images/back-card.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
